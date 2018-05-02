@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author bytegriffin
  *
  */
-@FeignClient(value = "enreka-provider")
+@FeignClient(value = "enreka-provider" ,fallback = HelloRemoteHystrix.class)
 public interface HelloRemote {
 	
 	/**

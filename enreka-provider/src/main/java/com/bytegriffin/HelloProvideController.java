@@ -15,7 +15,7 @@ public class HelloProvideController {
 
     @RequestMapping("/hello-provider")
     public String index(@RequestParam String name) {
-        return "hello "+name+". time="+LocalDateTime.now();
+        return "hello "+name+"，这是服务提供者，time="+LocalDateTime.now();
     }
 
 }

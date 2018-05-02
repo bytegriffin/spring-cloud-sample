@@ -15,11 +15,5 @@ public class HelloConsumeController {
     public String index(@PathVariable("name") String name) {
         return HelloRemote.hello(name);
     }
-	
-	
-//    @RequestMapping("/hello")
-//    public String index(@RequestParam String name) {
-//        return "hello "+name+"，this is producer 2  send first messge";
-//    }
 
 }
