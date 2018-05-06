@@ -27,10 +27,12 @@
 		<module>eureka-server-ha</module>
 		<module>eureka-provider</module>
 		<module>eureka-consumer</module>
-    <module>hystrix-consumer-node1</module>
-    <module>hystrix-consumer-node2</module>
-    <module>hystrix-eureka-server</module>
-    <module>hystrix-dashboard-turbine</module>
+	    <module>hystrix-consumer-node1</module>
+	    <module>hystrix-consumer-node2</module>
+	    <module>hystrix-eureka-server</module>
+	    <module>hystrix-dashboard-turbine</module>
+	    <module>config-git-server</module>
+	    <module>config-git-client</module>
   </modules>
 
 	<dependencyManagement>
