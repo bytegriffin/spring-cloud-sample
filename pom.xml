@@ -33,7 +33,11 @@
 	    <module>hystrix-dashboard-turbine</module>
 	    <module>config-git-server</module>
 	    <module>config-git-client</module>
-  </modules>
+	    <module>config-git-server-eureka</module>
+	    <module>config-git-server-ha-eureka</module>
+	    <module>config-git-client-eureka</module>
+	    <module>config-git-eureka-server</module>
+	</modules>
 
 	<dependencyManagement>
 		<dependencies>

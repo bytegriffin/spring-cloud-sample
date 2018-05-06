@@ -10,7 +10,8 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * https://github.com/bytegriffin/spring-cloud-sample/config-git-server/config-repo<br />
  * 下的的配置文件，当然需要事先在github上建立好config-repo文件夹以及test-config-xxx.properties文件<br />
  * 如果只想查看配置文件内容本身，可访问http://localhost:8001/test-config-dev.properties<br />
- * 配置中心会将文件访问自动转换为Web服务
+ * 配置中心会将访问配置文件自动转换为Web服务<br />
+ * 该子项目与config-git-client-eureka子项目联合使用
  * @author bytegriffin
  *
  */
