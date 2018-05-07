@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bytegriffin</groupId>
 	<artifactId>spring-cloud-sample</artifactId>
@@ -10,7 +12,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.0.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -27,16 +29,20 @@
 		<module>eureka-server-ha</module>
 		<module>eureka-provider</module>
 		<module>eureka-consumer</module>
-	    <module>hystrix-consumer-node1</module>
-	    <module>hystrix-consumer-node2</module>
-	    <module>hystrix-eureka-server</module>
-	    <module>hystrix-dashboard-turbine</module>
-	    <module>config-git-server</module>
-	    <module>config-git-client</module>
-	    <module>config-git-server-eureka</module>
-	    <module>config-git-server-ha-eureka</module>
-	    <module>config-git-client-eureka</module>
-	    <module>config-git-eureka-server</module>
+		<module>hystrix-consumer-node1</module>
+		<module>hystrix-consumer-node2</module>
+		<module>hystrix-eureka-server</module>
+		<module>hystrix-dashboard-turbine</module>
+		<module>config-git-server</module>
+		<module>config-git-client</module>
+		<module>config-git-server-eureka</module>
+		<module>config-git-server-ha-eureka</module>
+		<module>config-git-client-eureka</module>
+		<module>config-git-eureka-server</module>
+		<module>zuul-gateway-simple</module>
+		<module>zuul-eureka-server</module>
+		<module>zuul-eureka-provider</module>
+		<module>zuul-eureka</module>
 	</modules>
 
 	<dependencyManagement>
