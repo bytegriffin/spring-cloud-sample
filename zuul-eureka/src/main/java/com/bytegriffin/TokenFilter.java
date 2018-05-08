@@ -2,7 +2,6 @@ package com.bytegriffin;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
-import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -59,7 +58,7 @@ public class TokenFilter extends ZuulFilter {
         HttpServletRequest request = ctx.getRequest();
         logger.info("【TokenFilter】截取url【{}】开始检查是否包含token参数。。。", request.getRequestURL().toString());
         String token = request.getParameter("token");// 获取请求的参数
-        if (StringUtils.isNotBlank(token)) {
+        if (token != "" && !token.equals("")) {
             ctx.setSendZuulResponse(true); //对请求进行路由
             ctx.setResponseStatusCode(200);
             ctx.set("isSuccess", true);
