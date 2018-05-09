@@ -44,6 +44,9 @@
 	    <module>sleuth-zipkin-eureka-server</module>
 	    <module>sleuth-zipkin-eureka-provider</module>
 	    <module>sleuth-zipkin-zuul-eureka</module>
+    <module>feign-eureka-consumer</module>
+    <module>feign-eureka-provider</module>
+    <module>feign-eureka-server</module>
   </modules>
 
 	<dependencyManagement>
