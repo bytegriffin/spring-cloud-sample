@@ -1,10 +1,10 @@
-/target/
+target/
 .settings/
 .mvn/
 .metadata  
 .myeclipse
 .pydevproject
-/out/
+.out/
 *.jar
 *.war  
 *.ear  

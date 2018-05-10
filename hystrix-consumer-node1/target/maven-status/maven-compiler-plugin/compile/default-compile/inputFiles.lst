@@ -1,4 +1,0 @@
-/opt/workspace/spring-cloud-sample/hystrix-consumer-node1/src/main/java/com/bytegriffin/HystrixConsumerApplication.java
-/opt/workspace/spring-cloud-sample/hystrix-consumer-node1/src/main/java/com/bytegriffin/HelloConsumeController.java
-/opt/workspace/spring-cloud-sample/hystrix-consumer-node1/src/main/java/com/bytegriffin/HelloRemote.java
-/opt/workspace/spring-cloud-sample/hystrix-consumer-node1/src/main/java/com/bytegriffin/HelloRemoteHystrix.java

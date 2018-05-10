@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bytegriffin</groupId>
 	<artifactId>spring-cloud-sample</artifactId>
@@ -10,7 +12,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.0.0.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -40,14 +42,18 @@
 		<module>zuul-eureka-server</module>
 		<module>zuul-eureka-provider</module>
 		<module>zuul-eureka</module>
-	    <module>sleuth-zipkin-server</module>
-	    <module>sleuth-zipkin-eureka-server</module>
-	    <module>sleuth-zipkin-eureka-provider</module>
-	    <module>sleuth-zipkin-zuul-eureka</module>
-    <module>feign-eureka-consumer</module>
-    <module>feign-eureka-provider</module>
-    <module>feign-eureka-server</module>
-  </modules>
+		<module>sleuth-zipkin-server</module>
+		<module>sleuth-zipkin-eureka-server</module>
+		<module>sleuth-zipkin-eureka-provider</module>
+		<module>sleuth-zipkin-zuul-eureka</module>
+		<module>feign-eureka-consumer</module>
+		<module>feign-eureka-provider</module>
+		<module>feign-eureka-server</module>
+		<module>ribbon-eureka-server</module>
+		<module>ribbon-eureka-provider1</module>
+		<module>ribbon-eureka-provider2</module>
+		<module>ribbon-eureka-consumer</module>
+	</modules>
 
 	<dependencyManagement>
 		<dependencies>
