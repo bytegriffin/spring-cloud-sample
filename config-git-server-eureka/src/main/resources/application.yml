@@ -10,8 +10,8 @@ spring:
         git:
           uri: https://github.com/bytegriffin/spring-cloud-sample/   
           search-paths: config-git-server-eureka/config-repo                         
-          username: bytegriffin@126.com                           
-          password:  and4walkler
+          username:                         
+          password:  
 
 eureka:
   client:
