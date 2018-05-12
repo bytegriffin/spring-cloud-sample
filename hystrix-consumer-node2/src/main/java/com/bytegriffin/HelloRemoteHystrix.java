@@ -19,7 +19,7 @@ public class HelloRemoteHystrix implements HelloRemote {
 
 	@Override
 	public String hello(@RequestParam(value = "name") String name) {
-		return "对不起，" + name + "，这是eureka-provider远程服务熔断器，时间："+LocalDateTime.now();
+		return "对不起，" + name + "，这是node2服务熔断器，时间："+LocalDateTime.now();
 	}
 
 }

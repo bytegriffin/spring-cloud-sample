@@ -9,15 +9,10 @@
 		<artifactId>spring-cloud-sample</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
-	<artifactId>hystrix-consumer-node1</artifactId>
-	<name>hystrix-consumer-node1</name>
-
+	<artifactId>hystrix-provider</artifactId>
+	<name>hystrix-provider</name>
+	
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-openfeign</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -35,5 +30,5 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
-
+	
 </project>

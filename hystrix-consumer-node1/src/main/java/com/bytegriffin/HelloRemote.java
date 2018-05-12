@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  */
 @FeignClient(name = "hystrix-provider", fallback = HelloRemoteHystrix.class)
 public interface HelloRemote {
-	
+
 	/**
 	 * value值要与hystrix-provider-node项目HelloProvideController的hello-provider请求接口保持一致
 	 * @param name

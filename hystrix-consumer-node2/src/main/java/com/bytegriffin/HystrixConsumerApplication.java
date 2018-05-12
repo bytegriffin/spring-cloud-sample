@@ -2,16 +2,20 @@ package com.bytegriffin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@SpringBootApplication
-@EnableDiscoveryClient
-@EnableFeignClients
-@EnableCircuitBreaker
+/**
+ * 服务调用者2<br/>
+ * 访问http://localhost:9002/hello/abc 刷新数据，因为不存在服务提供者，所以会被断路器熔断并返回错误信息<br/>
+ * 该子项目与hystrix-consumer-node1、hystrix-provider、hystrix-eureka-server、hystrix-dashboard、hystrix-turbine子项目联合使用<br/>
+ * 启动顺序：hystrix-eureka-server->hystrix-provider->hystrix-consumer-node1->hystrix-consumer-node2->hystrix-dashboard->hystrix-turbine<br/>
+ * @author bytegriffin
+ *
+ */
 @EnableHystrix
+@EnableFeignClients
+@SpringBootApplication
 public class HystrixConsumerApplication {
 
 	public static void main(String[] args) {
