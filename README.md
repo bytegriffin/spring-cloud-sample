@@ -11,4 +11,5 @@
 * 网关路由：zuul-eureka、zuul-eureka-provider、zuul-eureka-server
 * 链路跟踪：sleuth-zipkin-eureka-server、sleuth-zipkin-server、sleuth-zipkin-eureka-provider、sleuth-zipkin-zuul-eureka
 
-
+# License
+[Apache 2.0 License.](/LICENSE)
